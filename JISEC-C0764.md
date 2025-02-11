@@ -1,8 +1,8 @@
 # Introduction
 [JISEC-C0764](https://commoncriteriaportal.org/nfs/ccpfiles/files/ppfiles/c0764_epp.pdf) was certified by Certification Body in Japan.
 
-This protection profile (PP) was evaluated by a Evaluation Facility in Japan, ECSEC Laboratory.
-The same name is included as a contributor, which leads to concerns about impartiality.
+This protection profile (PP) was evaluated by an Evaluation Facility in Japan, ECSEC Laboratory.
+The same company name is included as a contributor, which leads to concerns about impartiality.
 
 This protection profile has several questionable descriptions as shown below:
 
