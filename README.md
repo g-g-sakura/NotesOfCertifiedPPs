@@ -12,7 +12,7 @@ In this site, findings about certified Protection Profiles are shared, in order 
 
 # Certified Protection Profiles and their findings
 ## BSI-CC-PP-0084
-TBD
+See [BSI-CC-PP-0084.md](https://github.com/g-g-sakura/NotesOfCertifiedPPs/blob/main/BSI-CC-PP-0084.md)
 
 ## JISEC-C0864
 See [JISEC-C864.md](https://github.com/g-g-sakura/NotesOfCertifiedPPs/blob/main/JISEC-C0764.md)
