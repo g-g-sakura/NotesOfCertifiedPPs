@@ -8,8 +8,8 @@ This protection profile has several questionable descriptions as shown below:
 
 ## Section 5.1.2
 ### FDP_IFC.1/Import
-A non-volatile memory of TOE is assigned as a subject of FDP_IFC.1.1.
-Here the subject is considered as an active entity from the defintion of subject (see [3.88 of Common Criteria:2022 Part 1](https://commoncriteriaportal.org/files/ccfiles/CC2022PART1R1.pdf#page=25)).
+A non-volatile memory of TOE is assigned as a *subject* of FDP_IFC.1.1.
+Here the *subject* is considered as an active entity from the defintion of *subject* (see [3.88 of Common Criteria:2022 Part 1](https://commoncriteriaportal.org/files/ccfiles/CC2022PART1R1.pdf#page=25)).
 Therefore the description can be considered as a non-conformity.
 
 ## Section 7.1
@@ -17,7 +17,7 @@ Therefore the description can be considered as a non-conformity.
 #### Table 7-1
 ##### AES-XTS
 A cryptographic key length option 192-bit is specified for AES-XTS.
-AES-XTS using 192-bit is underfined as per [IEEE 1619](https://ieeexplore.ieee.org/document/8637988) and [NIST SP 800-38E](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38e.pdf).
+AES-XTS using 192-bit is undefined as per [IEEE 1619](https://ieeexplore.ieee.org/document/8637988) and [NIST SP 800-38E](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38e.pdf).
 Therefore the description is considered as a non-conformity.
 
 ### FCS_RBG_EXT.1
