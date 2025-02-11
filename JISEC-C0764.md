@@ -22,7 +22,7 @@ Therefore the description is considered as a non-conformity.
 
 ### FCS_RBG_EXT.1
 It is stated that *<ins>italicized and underlined text</ins>* means "assignment completed".
-Here FCS_RBG_EXT.1.2 is drafted using the style "italicized and underlined text", but, the number of noise sources is unspecified.
+Here FCS_RBG_EXT.1.2 is drafted using the style *<ins>italicized and underlined text</ins>*, but, the number of noise sources is unspecified.
 Therefore, the assignment is not completed, and this contradicts with the style *<ins>italicized and underlined text</ins>*.
 
 ### FCS_COP.1/SigVer 
