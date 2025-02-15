@@ -1,9 +1,7 @@
 # Introduction
-[JISEC-C0764](https://commoncriteriaportal.org/nfs/ccpfiles/files/ppfiles/c0764_epp.pdf) was certified by Certification Body in Japan.
+[JISEC-C0764](https://commoncriteriaportal.org/nfs/ccpfiles/files/ppfiles/c0764_epp.pdf) was developed by [National Institute of Advanced Industrial Science and Technology](https://www.cpsec.aist.go.jp/index_en.html), evaluated by [ECSEC Laboratory](https://www.ecsec.jp/publics/index/29/), an Evaluation Facility in Japan, and certified by [JISEC](https://www.ipa.go.jp/en/security/jisec/index.html), CC Certification Body in Japan.
 
-This protection profile (PP) was evaluated by an Evaluation Facility in Japan, ECSEC Laboratory.
-The same company name is included as a contributor, which leads to concerns about impartiality.
-
+The same company name as the evaluation facility is included as a contributor, which leads to concerns about impartiality.
 This protection profile has several questionable descriptions as shown below:
 
 ## Section 5.1.2
