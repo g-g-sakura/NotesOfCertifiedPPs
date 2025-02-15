@@ -5,7 +5,7 @@ This mainly describes the following:
 
 # Preface
 There are many certified Protection Profiles known. 
-However, the quality of certified Protection Profiles are varying, depending on evaluation facilities, certification bodies, or on schemes.
+However, the quality of certified Protection Profiles are various, depending on PP authors, evaluation facilities, certification bodies, or on schemes.
 Some are good, some are questionable.
 
 In this site, findings about certified Protection Profiles are shared, in order for readers to draft better Protection Profiles.
@@ -14,5 +14,5 @@ In this site, findings about certified Protection Profiles are shared, in order 
 ## BSI-CC-PP-0084
 See [BSI-CC-PP-0084.md](https://github.com/g-g-sakura/NotesOfCertifiedPPs/blob/main/BSI-CC-PP-0084.md)
 
-## JISEC-C0864
-See [JISEC-C864.md](https://github.com/g-g-sakura/NotesOfCertifiedPPs/blob/main/JISEC-C0764.md)
+## JISEC-C0764
+See [JISEC-C764.md](https://github.com/g-g-sakura/NotesOfCertifiedPPs/blob/main/JISEC-C0764.md)
