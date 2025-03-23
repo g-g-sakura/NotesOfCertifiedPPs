@@ -11,11 +11,11 @@ Some are good, some are questionable.
 In this site, findings about certified Protection Profiles are shared, in order for readers to draft better Protection Profiles.
 
 # Certified Protection Profiles and their findings
-## Protection profiles for secure signature creation device
+## EN419211-2 - Protection profiles for secure signature creation device
 See [EN419211-2.md](https://github.com/g-g-sakura/NotesOfCertifiedPPs/blob/main/EN419211-2.md)
 
-## BSI-CC-PP-0084
+## BSI-CC-PP-0084 - Security IC Platform Protection Profile with Augmentation Packages 
 See [BSI-CC-PP-0084.md](https://github.com/g-g-sakura/NotesOfCertifiedPPs/blob/main/BSI-CC-PP-0084.md)
 
-## JISEC-C0764
+## JISEC-C0764 - Protection Profile for Single Chip Microcontroller equipped with a secure cryptographic unit - Version 1.20
 See [JISEC-C764.md](https://github.com/g-g-sakura/NotesOfCertifiedPPs/blob/main/JISEC-C0764.md)
