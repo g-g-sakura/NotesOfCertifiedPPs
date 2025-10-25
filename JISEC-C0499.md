@@ -31,4 +31,4 @@ From the above, the unique solution is to use DRBG, or hybrid DRNG as in [BSI AI
 
 If so, `FCS_CKM.1e` shoud use hybrid DRNG, while the DRNG is not associated with any SFR in the [Passport Security Target](https://www.commoncriteriaportal.org/nfs/ccpfiles/files/epfiles/NSCIB-CC-2300104-01-ST.pdf), therefore the DRNG is considered not SFR-enforcing.
 
-Finally we can conclude that the original note in the PP was neglected in the Security Target, which would raise questions for procurement authorities whether the TOE does meet the PP.
+Finally we can conclude that the original note in the PP has been neglected in the Security Target, which would raise questions for procurement authorities whether the TOE meets the PP.
