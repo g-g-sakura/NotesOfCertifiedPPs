@@ -6,6 +6,8 @@
 In Note 6-5, it is stated as follows:
 > When implementing ECDSA calculation defined by FCS_COP.1a with high-level software, the ST author shall iterate this requirement for the quality of random numbers generated in the calculation process.
 
+Note here that almost the same content as this note is again pointed out in EXAMPLE 1 in [E3.2.1 of CC:2022 Part 1](https://www.commoncriteriaportal.org/files/ccfiles/CC2022PART2R1.pdf#page=195).
+
 The underlying thought would be as follows:
 
 ECDSA signature generation requires a `per-message secret`, or a random number and its length is equal to key length.
