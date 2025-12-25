@@ -57,7 +57,7 @@ Good refinement example of FCS_CKM.2 can be found in [Cryptographic Modules, Sec
 ### Note to Table 6-1, FIA_SOS.2.2
 We can find two occurrences of `Per-massage secret` within Note to Table 6-1 and FIA_SOS.2.2.
 
-<font size="300%">&#x1f486; &#x1f92b;</font>
+<span style="font-size: 300%;">&#x1f486; &#x1f92b;</span>
 
 These are pure typographical errors.
 Note here that [FIPS 186-5](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf) uses the term `Per-message secret`.
