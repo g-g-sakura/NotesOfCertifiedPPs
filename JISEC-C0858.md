@@ -5,7 +5,9 @@
 ## Member of the Evaluation Facility is credited as the author of the PP.
 From the document property of the PP, the name of document writer can be identified:
 ![Document property screenshot](imgs/JISEC-C0858-01.png)
+
 Here the same name can be identified as one of members of the Evaluation Facility:
+
 ![Members of technical committee of JISEC](imgs/JISEC-C0858-02.png)
 This is evidence that impartiality has been compromised.
 
@@ -36,6 +38,7 @@ Taking into account that J-LIS took more than a decade to revise a [Personal Num
 ### Note to Table 6-1, FIA_SOS.2.2
 We can find `Per-massage secret` within Note to Table 6-1 and FIA_SOS.2.2.
 
+&#x1f486; &#x1f92b;
 These are pure typographical errors.
 
 ### Note to FCS_CKM.6
