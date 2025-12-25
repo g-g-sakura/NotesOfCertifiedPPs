@@ -36,7 +36,7 @@ Taking into account that J-LIS took more than a decade to revise a [Personal Num
 
 ## Obvious typographical errors have been overlooked.
 ### Note to Table 6-1, FIA_SOS.2.2
-We can find `Per-massage secret` within Note to Table 6-1 and FIA_SOS.2.2.
+We can find two occurrences of `Per-massage secret` within Note to Table 6-1 and FIA_SOS.2.2.
 
 &#x1f486; &#x1f92b;
 These are pure typographical errors.
