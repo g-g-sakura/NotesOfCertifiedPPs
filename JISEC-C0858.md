@@ -41,7 +41,7 @@ We can find two occurrences of `Per-massage secret` within Note to Table 6-1 and
 &#x1f486; &#x1f92b;
 
 These are pure typographical errors.
-Note here that [FIPS 186-5](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf) uses the word `Per-message secret`.
+Note here that [FIPS 186-5](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf) uses the term `Per-message secret`.
 
 ### Note to FCS_CKM.6
 We can find the followin description in FCS_CKM.6.2:
