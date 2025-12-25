@@ -21,6 +21,5 @@ See [BSI-CC-PP-0084.md](https://github.com/g-g-sakura/NotesOfCertifiedPPs/blob/m
 See [JISEC-C764.md](https://github.com/g-g-sakura/NotesOfCertifiedPPs/blob/main/JISEC-C0764.md)
 
 
-## JISEC-C0858 - Personal Number Cards Version 2 Protection Profile
-1.00
+## JISEC-C0858 - Personal Number Cards Version 2 Protection Profile - 1.00
 See [JISEC-C858.md](https://github.com/g-g-sakura/NotesOfCertifiedPPs/blob/main/JISEC-C0858.md)
