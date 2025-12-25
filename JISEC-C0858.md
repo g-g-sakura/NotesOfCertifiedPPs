@@ -34,11 +34,30 @@ On the other hand, NIAP, US Certification Body, released [Commercial National Se
 
 Taking into account that J-LIS took more than a decade to revise a [Personal Number Cards Protection Profile](https://www.ipa.go.jp/en/security/jisec/pps/certified-cert/b9ck990000000ygf-att/c0431_epp.pdf), there is concern that the selected cryptographic algorithm may be compromised before new protection profile comes out.
 
+## Misleading use of functional components
+### FIA_SOS.2
+The functional component FIA_SOS.2 is used to generate a `nonce` based on A.3.1, A.3.2, or A.3.3 of [FIPS 186-5](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf).
+To be more precise, [FIPS 186-5](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf) does not use the term `nonce` in A.3.1, A.3.2, nor A.3.3.
+
+A.3.1, A.3.2, and A.3.3 of [FIPS 186-5](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf) generate a `per-message secret`, which will is equally valuable as cryptographic key.
+
+Here FIA family is for Identification and Authentication, while `nonce` or `per-message secret` is not for Identification and Authentication, but for cryptographic security.
+Therefore, it is inappropriate to use FIA_SOS.2 for `per-message secret` generation.
+
+### FCS_CKM.2
+The functional component FCS_CKM.2 is used to perform ECDH key agreement.
+Here, in [E.3.2.2 of CC:2022 Part 2](https://www.commoncriteriaportal.org/files/ccfiles/CC2022PART2R1.pdf#page=195), "cryptographic key agreement" is mentioned as an operation of FCS_COP.1.1.
+Based on this description, another functional component FCS_COP.1 should be used instead.
+
+Note here that the description of FCS_CKM.2 before refinement does not explain how to distribute cryptographic keys.
+Good refinement example of FCS_CKM.2 can be found in [Cryptographic Modules, Security Level "Low", Version 1.0](https://www.commoncriteriaportal.org/nfs/ccpfiles/files/ppfiles/pp0044b.pdf).
+
+
 ## Obvious typographical errors have been overlooked.
 ### Note to Table 6-1, FIA_SOS.2.2
 We can find two occurrences of `Per-massage secret` within Note to Table 6-1 and FIA_SOS.2.2.
 
-&#x1f486; &#x1f92b;
+<font size="4">&#x1f486; &#x1f92b;</font>
 
 These are pure typographical errors.
 Note here that [FIPS 186-5](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf) uses the term `Per-message secret`.
