@@ -74,4 +74,10 @@ Therefore, `disposal method for cryptography` should be written as `cryptographi
 ### Section 7 References
 The document ID of CC:2022 Part 5 should be `CCMB-2022-11-005`, however, it is written as `CCMB-2022-11-004`.
 
+## How to distingush Version 2 Personal Number Cards from Version 1 Personal Number Cards
+It will be technically required to distingush Version 2 Personal Number Cards from Version 1 Personal Number Cards,
+because the Application Protocol Data Unit (APDU) for Version 2 Personal Number Cards seems to be different from that for Version 1.
 
+FIA_UAU.1 and FIA_UID.1 are refined from previous [PP](https://www.ipa.go.jp/en/security/jisec/pps/certified-cert/b9ck990000000ygf-att/c0431_epp.pdf), and in the first row of Table 6-4, `Select ISD, SSD, AP` is included.
+
+From the above, it is assumed that information read out from ISD, SSD, and/or AP is different between Version 2 Personal Number Cards from Version 1 Personal Number Cards.
