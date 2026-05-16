@@ -52,6 +52,13 @@ Based on this description, another functional component FCS_COP.1 should be used
 Note here that the description of FCS_CKM.2 before refinement does not explain how to distribute cryptographic keys.
 Good refinement example of FCS_CKM.2 can be found in [Cryptographic Modules, Security Level "Low", Version 1.0](https://www.commoncriteriaportal.org/nfs/ccpfiles/files/ppfiles/pp0044b.pdf).
 
+### FTP_ITC.1.3
+Based on ISO 7816 standards, IC chips do not `initiate` communication with an interface device (IFD, for example: IC card reader), because IC chips normally respond to request APDU (Application Protocol Data Unit) sent from the IFD, but do not normally send a APDU spontaneously.
+
+FTP_ITC.1 is introduced in the PP to support secure messaging, and the original description of FTP_ITC.1.3 is `The TSF shall initiate communication ...`.
+
+Here, the word `initiate` is not appropriate taking into account the above technological limitations.
+Experienced ST developers have editorially refined FTP_ITC.1.3 so as to state `The TSF shall enforce communication ...` for supporting secure messaging in IC chip context, and the refinement is deemed more appropriate than using word `initiate`.
 
 ## Obvious typographical errors have been overlooked.
 ### Note to Table 6-1, FIA_SOS.2.2
