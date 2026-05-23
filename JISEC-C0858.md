@@ -88,3 +88,22 @@ because the Application Protocol Data Unit (APDU) for Version 2 Personal Number 
 FIA_UAU.1 and FIA_UID.1 are refined from previous [PP](https://www.ipa.go.jp/en/security/jisec/pps/certified-cert/b9ck990000000ygf-att/c0431_epp.pdf), and in the first row of Table 6-4, `Select ISD, SSD, AP` is included.
 
 From the above, it is assumed that information read out from ISD, SSD, and/or AP is different between Version 2 Personal Number Cards from Version 1 Personal Number Cards.
+
+## Dishonest translation
+Recently the [English version of the PP](https://www.ipa.go.jp/en/security/jisec/pps/certified-cert/tnmtrj0000005h3c-att/c0858_epp.pdf) was released.
+
+We identified **multiple silent changes** in the English version **without correcting the original Japanese version**, as shown below:
+
+### Two occurrences of `per-massage secret` have been corrected.
+Two occurrences of `per-massage secret` have been replaced to as `per-message secret` in Table 6-1 and FIA_SOS.2.2.
+
+### The document ID of CC:2022 Part 5 have been corrected.
+The document ID of CC:2022 Part 5 have beeen replaced to as `CCMB-2022-11-005`.
+
+### `Mincho-font` was intentionally translated to as **`italic and bold`**.
+In [the third bullet under Section 6.1](https://www.ipa.go.jp/security/jisec/pps/certified-pps/omgdg50000001z2c-att/c0858_pp.pdf#page=26), it is stated that `mincho-font` is used to express refinements, in the original Japanese version. 
+However, in [the English version](https://www.ipa.go.jp/en/security/jisec/pps/certified-cert/tnmtrj0000005h3c-att/c0858_epp.pdf#page=25), it is stated that **`italic and bold`** is used to express refinements. 
+It is not faithful translation, and therefore will be regarded as **violation** to the scheme requirements in [CCM-02-A](https://www.ipa.go.jp/en/security/jisec/mv4gl30000000788-att/CCM-02-A_en.pdf#page=20).
+
+Careful PP authors (and consultants) would have drafted Japanese expressions which can be translated smoothly into English,
+as it does not make sense to explain `mincho-font` for readers of the English version.
