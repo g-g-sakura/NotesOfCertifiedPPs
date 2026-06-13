@@ -66,8 +66,12 @@ We can find two occurrences of `Per-massage secret` within Note to Table 6-1 and
 
 <span style="font-size: 300%;">&#x1f486; &#x1f92b;</span>
 
-These are pure typographical errors.
+These are obvious typographical errors.
 Note here that [FIPS 186-5](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf) uses the term `Per-message secret`.
+
+Here, let us imagine QWERTY keyboards.  Keys `e` and `a` are not next to each other.  
+Therefore these typographical errors are not caused by mistake, but by intention.
+
 
 ### Note to FCS_CKM.6
 We can find the followin description in FCS_CKM.6.2:
@@ -107,3 +111,10 @@ It is not faithful translation, and therefore will be regarded as **violation** 
 
 Careful PP authors (and consultants) would have drafted Japanese expressions which can be translated smoothly into English,
 as it does not make sense to explain `mincho-font` for readers of the English version.
+
+### Multiple session keys appreared, but they are mentioned in singular form.
+FCS_CKM.5 refers `session keys`, plural form.  
+On the other hand, 6.3.1 refers `the session key` in singular form, without specifying the preceding singular `session key`. 
+
+We know that Japanese language often does not distinguish between singular and plural forms. 
+Therefore translators should translate the text into English while taking into account the fact. 
