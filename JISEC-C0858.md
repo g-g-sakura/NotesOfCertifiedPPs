@@ -102,7 +102,7 @@ We identified **multiple silent changes** in the English version **without corre
 Two occurrences of `per-massage secret` have been replaced to as `per-message secret` in Table 6-1 and FIA_SOS.2.2.
 
 ### The document ID of CC:2022 Part 5 has been corrected.
-The document ID of CC:2022 Part 5 have beeen replaced to as `CCMB-2022-11-005`.
+The document ID of CC:2022 Part 5 has been replaced to as `CCMB-2022-11-005`.
 
 ### `Mincho-font` was intentionally translated to as **`italic and bold`**.
 In [the third bullet under Section 6.1](https://www.ipa.go.jp/security/jisec/pps/certified-pps/omgdg50000001z2c-att/c0858_pp.pdf#page=26), it is stated that `mincho-font` is used to express refinements, in the original Japanese version. 
