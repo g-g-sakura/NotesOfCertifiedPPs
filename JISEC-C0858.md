@@ -114,7 +114,10 @@ as it does not make sense to explain `mincho-font` for readers of the English ve
 
 ### Multiple session keys appreared, but they are mentioned in singular form.
 FCS_CKM.5 refers `session keys`, plural form.  
-On the other hand, 6.3.1 refers `the session key` in singular form, without specifying the preceding singular `session key`. 
+On the other hand, 6.3.1 refers [`the session key`](https://www.ipa.go.jp/en/security/jisec/pps/certified-cert/tnmtrj0000005h3c-att/c0858_epp.pdf#page=48) in singular form, without specifying the preceding singular `session key`. 
 
 We know that Japanese language often does not distinguish between singular and plural forms. 
-Therefore translators should translate the text into English while taking into account the fact. 
+Therefore translators should translate texts into English while taking into account the fact. 
+
+The singular form will do harm when interpreting cryptographic key destruction FCS_CKM.6. 
+Readers of the PP may read that only a single session key has to be zeroized, in spite of the fact that multiple session keys have to be zeroized.
